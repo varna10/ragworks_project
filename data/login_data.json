@@ -1,0 +1,42 @@
+[
+  {
+    "username": "valid_user1@example.com",
+    "password": "Password123!",
+    "expected": "success"
+  },
+  {
+    "username": "valid_user2@example.com",
+    "password": "MyPass@2025",
+    "expected": "success"
+  },
+  {
+    "username": "invalid_user@example.com",
+    "password": "wrong123",
+    "expected": "failure"
+  },
+  {
+    "username": "valid_user3@example.com",
+    "password": "Pass#User3",
+    "expected": "success"
+  },
+  {
+    "username": "",
+    "password": "somepassword",
+    "expected": "failure"
+  },
+  {
+    "username": "valid_user4@example.com",
+    "password": "",
+    "expected": "failure"
+  },
+  {
+    "username": "locked_user@example.com",
+    "password": "CorrectPass1",
+    "expected": "locked"
+  },
+  {
+    "username": "user_with_special_chars@exa!mple.com",
+    "password": "Spec!al123",
+    "expected": "failure"
+  }
+]
