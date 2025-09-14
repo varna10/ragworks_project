@@ -1,0 +1,7 @@
+pytest
+playwright
+allure-pytest
+pytest-xdist
+pytest-html
+black
+flake8

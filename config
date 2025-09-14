@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origitn"]
+	url = https://github.com/varn10/ragworks_project.git
+	fetch = +refs/heads/*:refs/remotes/origitn/*
+[remote "origin"]
+	url = https://github.com/varna10/ragworks_project.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
